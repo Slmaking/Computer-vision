@@ -8,7 +8,7 @@ rate of 0.01, a batch size of 64, as well as L2 regularization, achieves a modes
 epochs reaching a testing accuracy of 68.95 %. Data augmentation techniques and Dropout method were
 performed for the pre-trained models as well. Resnet 50 revealed a good testing performance reaching
 around 84%. Finally, the DensNet201 reached the highest accuracy 88% with a learning rate of 0.0001
-using Adam optimizer.
+using Adam optimizer.//
 1 **Introduction**
 The goal of this project is to investigate the performance of the Multi-layer perceptron model while varying
 its various hyperparameters on the CIFAR-10 dataset. We also want to highlight the performance of the
@@ -19,7 +19,7 @@ models in computer vision research. CIFAR-10 was used in [1] to demonstrate the 
 in handling the problem of vanishing gradients in very deep neural networks. It was also used in [2] to
 evaluate the performance of four Convolutional Neural Network (CNN) models for image recognition and
 classification. In [3], the CIFAR-10 dataset was used to demonstrate that some common regularization
-techniques (such as weight decay and dropout) may not always improve generalization performance.
+techniques (such as weight decay and dropout) may not always improve generalization performance.//
 2 **Dataset**
 The CIFAR-10 dataset is a well-known computer vision dataset consisting of 60,000 32x32 color images
 in 10 classes (airplane, automobile, bird, cat, deer, dog, frog, horse, ship, and truck), with 6,000 images
